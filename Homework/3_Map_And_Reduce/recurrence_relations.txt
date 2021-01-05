@@ -1,16 +1,16 @@
-Т(n) = aT([n/b])+O(n^d)
+Т(n) = aT([n/b]) + O(n^d)
 
-T(n)=T(n/2)+O(1) d = 0, a = 1, b = 2, 0 = log2 1 => log n
-T(n)=2T(n/3)+O(1) d = 0, a = 2, b = 3, 0 < log3 2 => n^log3 2 = n^0.63
-T(n)=2T(n/2)+O(n) d = 1, a = 2, b = 2, 1 = log2 2 => n * log n
+T(n) = T(n/2) + O(1). d = 0, a = 1, b = 2, 0 = log2 1 => log n
+T(n) = 2T(n/3) + O(1). d = 0, a = 2, b = 3, 0 < log3 2 => n^log3 2 = n^0.63
+T(n) = 2T(n/2) + O(n). d = 1, a = 2, b = 2, 1 = log2 2 => n * log n
 
-T(n)=5T(n/4)+O(n) d = 1, a = 5, b = 4, 1 < log4 5 => n^log4 5 = n^1.16
-T(n)=3T(n/2)+O(n) d = 1, a = 3, b = 2, 1 < log2 3 => n^log2  3 = n^1.58
+T(n) = 5T(n/4) + O(n). d = 1, a = 5, b = 4, 1 < log4 5 => n^log4 5 = n^1.16
+T(n) = 3T(n/2) + O(n). d = 1, a = 3, b = 2, 1 < log2 3 => n^log2 3 = n^1.58
 
-T(n)=5T(n/4)+O(n^2) d = 2, a = 5, b = 4, 2 > log4 5 => n^2
+T(n) = 5T(n/4) + O(n^2). d = 2, a = 5, b = 4, 2 > log4 5 => n^2
 
-T(n)=9T(n/3)+O(n^2) d = 2, a = 9, b = 3, 2 = log3 9 => n^2 * log n
+T(n) = 9T(n/3) + O(n^2). d = 2, a = 9, b = 3, 2 = log3 9 => n^2 * log n
 
-T(n)=5T(n/2)+O(n) d = 1, a = 5, b = 2, 1 < log2 5 => n^log2 5 = n^2.32
-T(n)=6T(n/4)+O(n^3) d = 3, a = 6, b = 4, 3 > log6 4 => n^3
+T(n) = 5T(n/2) + O(n). d = 1, a = 5, b = 2, 1 < log2 5 => n^log2 5 = n^2.32
+T(n) = 6T(n/4) + O(n^3). d = 3, a = 6, b = 4, 3 > log6 4 => n^3
 
